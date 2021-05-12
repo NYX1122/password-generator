@@ -82,6 +82,7 @@ var passwordSpecial = function () {
 
 //initializing function
 function writePassword() {
+  //to reset password string after a succesful generation.
   password = "";
   generatePassword();
   var passwordText = document.querySelector("#password");
